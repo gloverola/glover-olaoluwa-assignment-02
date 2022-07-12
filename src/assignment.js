@@ -20,7 +20,6 @@ function sumOfNumbers(arrayOfNumbers) {
     return sum
 }
 
-
 /**
  * Challenge - 2
  * 
@@ -32,6 +31,7 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   let evenNumbers = arrayOfNumbers.filter(n => n % 2 === 0)
+  
   return evenNumbers.length
 }
 
